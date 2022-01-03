@@ -26,5 +26,12 @@
   font-size: 30px;
   color: grey;
   text-align: center;
+  -webkit-transition: color 0.5s, background-color 1s;
+  transition: color 0.5s, background-color 1s;
+}
+
+.footer h3::hover {
+  color: royalblue;
+  background-color: orange;
 }
 /*# sourceMappingURL=main.css.map */
