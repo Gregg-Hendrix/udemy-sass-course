@@ -31,8 +31,7 @@ $font-sm: 20px;
 }
 
 @mixin transition($param...) {
-    transition: $param;
-    
+    transition: $param;  
 }
 
 .banner h1 {
@@ -41,9 +40,9 @@ $font-sm: 20px;
 
 .footer h3 {
     @include headingStyles($font-md);
-    @include transition(color .5s, background-color 1s)
+    @include transition(color .5s, background-color 1s);
 
-    &::hover {
+    &:hover {
         color: $color-tertiary;
         background-color: $color-primary;
     }
