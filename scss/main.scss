@@ -31,7 +31,7 @@ $font-sm: 20px;
     text-align: center;
 }
 
-.banner h1 {
+ h1 {
     @extend .heading;
 
     &:hover {

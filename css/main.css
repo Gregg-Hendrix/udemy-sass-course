@@ -16,14 +16,14 @@
   color: royalblue;
 }
 
-.heading, .banner h1, .banner .footer h3, .footer .banner h3 {
+.heading, h1, .footer h3 {
   color: orange;
   font-size: 40px;
   background-color: grey;
   text-align: center;
 }
 
-.banner h1:hover, .banner .footer h3:hover, .footer .banner h3:hover {
+h1:hover, .footer h3:hover {
   background-color: green;
 }
 /*# sourceMappingURL=main.css.map */
